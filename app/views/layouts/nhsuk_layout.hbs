@@ -17,14 +17,19 @@
 <body>
   {{> global_header }}
 
-  <main id="content" role="main">
+  <!-- TODO: string must be configurable -->
+  <div class="section-header">
+    <div>Things to help you in the first few weeks</div>
+  </div>
 
+  <main id="content" role="main">
     <div class="page-section">
       {{{body}}}
     </div>
   </main>
 
   {{> global_footer }}
+
 </body>
 
 </html>
