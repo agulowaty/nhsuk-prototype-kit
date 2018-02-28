@@ -1,6 +1,7 @@
 @import "../nhsuk/environment/settings/colours";
 @import "../nhsuk/environment/tools/mixins/layout";
 @import "../nhsuk/environment/tools/mixins/typography";
+@import "expander";
 
 .global-header {
 	background-color: $nhs-blue;
@@ -12,12 +13,17 @@
 	padding: 100px 0 45px;
 	font-size: 36px;
 	line-height: 48px; 
-	max-width: 960px;
+	max-width: 635px;
 }
 
 #content {
 	background-color: $grey-4;
 }
+
+.page-section {
+	max-width: 635px;
+}
+
 
 html {
 	background-color: $grey-4;

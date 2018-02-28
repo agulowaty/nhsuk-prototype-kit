@@ -1,0 +1,53 @@
+@import "../nhsuk/environment/settings/colours";
+
+.expander {
+	display: block;
+	background-color: $white;
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	li + li {
+		margin: 0;
+		border-top: 1.5px;
+	} 
+}
+
+.expander__item {
+	border: 3px solid $nhs-blue;
+	display: block;
+	line-height: 75px;
+	margin-bottom: 0;
+}
+
+.expander__item__title {
+	font-size: 19px;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+
+
+.expander__item__title:hover {
+	background-color: $dark-blue;
+	text-decoration: underline;
+	color: $white;
+
+}
+
+.expander__item__title__icon {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.expander__item__content {
+	margin-top: 0;
+	line-height: 1.5em;
+
+
+}
+
+.expander__item__content--hidden {
+	display: none;
+}
