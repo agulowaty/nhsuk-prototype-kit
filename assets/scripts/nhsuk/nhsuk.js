@@ -1,10 +1,10 @@
+function forEachElement (el, selector, callback) {
+  Array.prototype.forEach.call(
+    el.querySelectorAll(selector), callback
+  )
+}
 ;(function () {
   // Utility function to run a callback for all matching elements
-  function forEachElement (el, selector, callback) {
-    Array.prototype.forEach.call(
-      el.querySelectorAll(selector), callback
-    )
-  }
 
   // Synchronises a class on the labels for a set of multiple-choice inputs
   // based on a predicate applied to each input.

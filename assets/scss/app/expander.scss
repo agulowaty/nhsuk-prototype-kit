@@ -3,15 +3,15 @@
 .expander {
 	display: block;
 	background-color: $white;
-	ul {
+	.expander__list {
 		list-style: none;
 		padding-left: 0;
 	}
-
 	li + li {
 		margin: 0;
 		border-top: 1.5px;
 	} 
+
 }
 
 .expander__item {
@@ -22,32 +22,41 @@
 }
 
 .expander__item__title {
+	color: $dark-blue;
 	font-size: 19px;
 	text-decoration: none;
 	display: inline-block;
 	width: 100%;
 }
 
+.expander__item__title__arrow {
+	margin: 0 28px 0 28px;
+}
 
 .expander__item__title:hover {
 	background-color: $dark-blue;
 	text-decoration: underline;
 	color: $white;
-
-}
-
-.expander__item__title__icon {
-	padding-left: 28px;
-	padding-right: 28px;
 }
 
 .expander__item__content {
+	p, ul, ol {
+		font-size: 18px;
+	}
 	margin-top: 0;
+	margin-left: 76px;
+	margin-bottom: 48px;
+	margin-right: 76px;
 	line-height: 1.5em;
-
-
+	display: none;
 }
 
-.expander__item__content--hidden {
-	display: none;
+.expander__item__content--open {
+	display: block;
+}
+
+.expander__item__content__video {
+	width: 100%;
+	height: 353px;
+	border: 3px $dark-blue solid;
 }
