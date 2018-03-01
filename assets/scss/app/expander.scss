@@ -37,6 +37,7 @@
 	background-color: $dark-blue;
 	text-decoration: underline;
 	color: $white;
+	cursor: pointer;
 }
 
 .expander__item__content {
@@ -64,7 +65,6 @@
 
 .expander__item__button-wrapper {
 	margin-bottom: 32px;
-
 }
 
 .expander__item__button--close {
@@ -83,4 +83,5 @@
 	background-color: $white;
 	border: solid 2px #231F20;
 	text-decoration: underline;
+	cursor: pointer;
 }
