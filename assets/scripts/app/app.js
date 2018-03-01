@@ -5,10 +5,10 @@
 		var clickedArrowImg = e.currentTarget.querySelector('img.expander__item__title__arrow');
 		if (contentElCls.contains(openedClassName)) {
 			contentElCls.remove(openedClassName);
-			clickedArrowImg.src = '/images/icon-expander-open.svg';
+			clickedArrowImg.src = '/images/expander/icon-expander-open.svg';
 		} else {
 			contentElCls.add(openedClassName);
-			clickedArrowImg.src = '/images/icon-expander-close.svg';
+			clickedArrowImg.src = '/images/expander/icon-expander-close.svg';
 		}
 
 	};
