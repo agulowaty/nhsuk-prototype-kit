@@ -27,6 +27,9 @@
 	text-decoration: none;
 	display: inline-block;
 	width: 100%; 
+	:link {
+		color: $dark-blue;
+	}
 }
 
 .expander__item__title__arrow {
