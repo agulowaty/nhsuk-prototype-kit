@@ -26,7 +26,7 @@
 	font-size: 19px;
 	text-decoration: none;
 	display: inline-block;
-	width: 100%;
+	width: 100%; 
 }
 
 .expander__item__title__arrow {
@@ -34,9 +34,9 @@
 }
 
 .expander__item__title:hover {
-	background-color: $dark-blue;
+	color: $dark-blue;
+	background-color: #EEF7FF;
 	text-decoration: underline;
-	color: $white;
 	cursor: pointer;
 }
 

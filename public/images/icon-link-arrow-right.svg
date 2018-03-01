@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="0" width="10" height="2"></rect>
+        <polygon id="path-2" points="-0.677397729 5.71495506 15.3916891 5.67362984 15.3916891 7.67362984 -0.677397729 7.71495506"></polygon>
+        <rect id="path-3" x="8" y="4" width="10" height="2"></rect>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(7.500000, 8.000000) rotate(-315.000000) translate(-7.500000, -8.000000) translate(0.000000, 1.000000)">
+            <g id="Rectangle-2">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="4.5" y="0.5" width="9" height="1"></rect>
+            </g>
+            <g id="Rectangle-2" transform="translate(7.357146, 6.694292) rotate(-45.000000) translate(-7.357146, -6.694292) ">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#979797" stroke-width="1" d="M-0.177397729,6.21367085 L-0.177397729,7.21366755 L14.8916891,7.17491405 L14.8916891,6.17491735 L-0.177397729,6.21367085 Z"></path>
+            </g>
+            <g id="Rectangle-2" transform="translate(13.000000, 5.000000) rotate(-90.000000) translate(-13.000000, -5.000000) ">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#979797" stroke-width="1" x="8.5" y="4.5" width="9" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
