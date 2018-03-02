@@ -14,8 +14,10 @@
 
 }
 
+$border-width: 4px;
+
 .expander__item {
-	border: 3px solid $nhs-blue;
+	border: $border-width solid $nhs-blue;
 	display: block;
 	line-height: 75px;
 	margin-bottom: 0;
@@ -29,6 +31,10 @@
 	width: 100%; 
 	&:link, &:visited, &:active {
 		color: $dark-blue;
+	}
+
+	&:focus {
+		border-width: $border-width;
 	}
 }
 
