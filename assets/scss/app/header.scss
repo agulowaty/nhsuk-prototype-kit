@@ -1,0 +1,41 @@
+@import "../nhsuk/environment/tools/mixins/layout";
+@import "../nhsuk/environment/settings/colours";
+
+
+.global-header {
+	background-color: $nhs-blue;
+	color: $white;
+	height: 100px;
+}
+
+.global-header__inner {
+	border-bottom: 2px solid $dark-blue;
+	padding: 0;
+	height: 100px;
+}
+
+.global-header__link {
+}
+
+$height: 64px;
+
+.breadcrumb {
+	background-color: #425563;
+	height: $height;
+	box-shadow: inset 0px 45px 39px -32px #2F373D;	
+}
+
+.breadcrumb__navigation {
+  	@include site-width-container;
+  	line-height: $height;
+  	color: $white;
+
+  	a {
+  		color: $white;
+  	}
+
+  	.right-arrow {
+  		margin: 0 12px;
+  	}
+
+}

@@ -3,11 +3,7 @@
 @import "../nhsuk/environment/tools/mixins/typography";
 @import "expander";
 @import "important-card";
-
-.global-header {
-	background-color: $nhs-blue;
-	color: $white;
-}
+@import "header";
 
 .section-header {
   	@include site-width-container;
