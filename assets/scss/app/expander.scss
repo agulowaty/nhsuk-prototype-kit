@@ -43,6 +43,10 @@
 	cursor: pointer;
 }
 
+$arrow-width:  32px;
+$arrow-margin: 28px;	
+$text-margin-left: $arrow-width + (2 * $arrow-margin);
+
 .expander__item__content {
 	line-height: 1.5em;
 	display: none;
@@ -52,7 +56,7 @@
 	}
 
 	.expander__item__content__text {
-		margin: 32px 76px 48px 76px;
+		margin: 32px $text-margin-left;
 	}
 }
 
