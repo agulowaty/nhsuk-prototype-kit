@@ -11,9 +11,12 @@
 	border-bottom: 2px solid $dark-blue;
 	padding: 0;
 	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.global-header__link 	{
+.global-header__link {
 }
 
 $height: 64px;
