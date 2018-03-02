@@ -1,0 +1,7 @@
+@import "../nhsuk/environment/settings/colours";
+
+.important-card {
+	background-color: $white;
+	border-top: 2px solid $dark-blue;
+	padding: 25px 14px 25px 14px;
+}
