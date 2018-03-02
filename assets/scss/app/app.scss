@@ -2,6 +2,7 @@
 @import "../nhsuk/environment/tools/mixins/layout";
 @import "../nhsuk/environment/tools/mixins/typography";
 @import "expander";
+@import "important-card";
 
 .global-header {
 	background-color: $nhs-blue;
@@ -27,4 +28,8 @@
 
 html {
 	background-color: $grey-4;
+}
+
+h2 {
+	font-weight: 300;
 }
