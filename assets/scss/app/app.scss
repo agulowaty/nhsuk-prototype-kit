@@ -5,13 +5,6 @@
 @import "important-card";
 @import "header";
 
-.section-header {
-  	@include site-width-container;
-	padding: 100px 0 45px;
-	font-size: 36px;
-	line-height: 48px; 
-	max-width: 635px;
-}
 
 #content {
 	background-color: $grey-4;
@@ -32,4 +25,19 @@ h1 {
 }
 h2 {
 	font-weight: 300;
+}
+
+
+.section-header {
+	@include site-width-container;
+	padding: 0;
+	font-size: 36px;
+	line-height: 48px; 
+	max-width: 635px;
+}
+
+@media (min-width: 1024px) {
+	.section-header {
+		margin: 32px auto 32px auto;
+	}
 }
