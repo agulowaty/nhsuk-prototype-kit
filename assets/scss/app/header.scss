@@ -2,21 +2,57 @@
 @import "../nhsuk/environment/settings/colours";
 
 
+$header-height: 100px;
+
 .global-header {
 	background-color: $nhs-blue;
-	height: 100px;
+	height: $header-height;
 }
 
 .global-header__inner {
 	border-bottom: 2px solid $dark-blue;
+	display: block;
 	padding: 0;
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	height: $header-height;
 }
 
+.global-header__link-container {
+	display: inline-block;
+	height: 100%;
+	width: 20%;
+	float: left;
+	position: relative;
+}	
+
 .global-header__link {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.global-header__navigation {
+	display: inline-block;
+	height: 100%;
+
+	a, a:link {
+		color: $white;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #d4efff;
+	}
+
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+			font-size: 18px;
+			line-height: $header-height;
+			padding-right: 18px;
+		}
+
+	}
 }
 
 $height: 64px;
@@ -26,30 +62,30 @@ $height: 64px;
 }
 
 .breadcrumb__navigation {
-  	@include site-width-container;
-  	line-height: $height;
-  	color: $dark-blue;
+	@include site-width-container;
+	line-height: $height;
+	color: $dark-blue;
 
-  	a {
-  		color: $dark-blue;
-  	}
-  	a:hover {
-  		color: #005eb8;
-  	}
+	a {
+		color: $dark-blue;
+	}
+	a:hover {
+		color: #005eb8;
+	}
 
-  	a:focus {
-  		background-color: $focus-colour;
-  	}
+	a:focus {
+		background-color: $focus-colour;
+	}
 
-  	a:active {
-  		color: $dark-blue;
-  		text-decoration: none;
-  		background: none;
-  		outline: none;
-  	}
+	a:active {
+		color: $dark-blue;
+		text-decoration: none;
+		background: none;
+		outline: none;
+	}
 
-  	.right-arrow {
-  		margin: 0 24px;
-  	}
+	.right-arrow {
+		margin: 0 24px;
+	}
 
 }

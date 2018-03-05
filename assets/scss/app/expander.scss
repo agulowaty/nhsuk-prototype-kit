@@ -74,6 +74,10 @@ $text-margin-left: $arrow-width + (2 * $arrow-margin);
 		font-size: 19px;
 		line-height: 28px;
 	}
+
+	.expander__item__content__text *+* {
+		margin-top: 24px;
+	}
 }
 
 .expander__item__content--open {
