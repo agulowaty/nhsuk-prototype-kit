@@ -30,8 +30,26 @@ $height: 64px;
   	line-height: $height;
   	color: $dark-blue;
 
+  	a {
+  		color: $dark-blue;
+  	}
+  	a:hover {
+  		color: #005eb8;
+  	}
+
+  	a:focus {
+  		background-color: $focus-colour;
+  	}
+
+  	a:active {
+  		color: $dark-blue;
+  		text-decoration: none;
+  		background: none;
+  		outline: none;
+  	}
+
   	.right-arrow {
-  		margin: 0 12px;
+  		margin: 0 24px;
   	}
 
 }
