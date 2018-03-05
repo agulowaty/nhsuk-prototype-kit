@@ -54,15 +54,17 @@ $arrow-margin: 28px;
 $text-margin-left: $arrow-width + (2 * $arrow-margin);
 
 .expander__item__content {
-	line-height: 1.5em;
 	display: none;
 	margin: $border-width 0 0 0; /** need to add top margin to account for title outline **/
-	p, ul, ol {
-		font-size: 18px;
-	}
+	font-size: 19px;
+	line-height: 28px;
 
 	.expander__item__content__text {
 		margin: 32px $text-margin-left;
+	}
+	li {
+		font-size: 19px;
+		line-height: 28px;
 	}
 }
 
