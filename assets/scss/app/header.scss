@@ -49,7 +49,10 @@ $header-height: 100px;
 			display: inline;
 			font-size: 18px;
 			line-height: $header-height;
-			padding-right: 18px;
+		}
+
+		li + li {
+			padding-left: 18px;
 		}
 
 	}
