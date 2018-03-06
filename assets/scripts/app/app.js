@@ -16,16 +16,17 @@
 	}
 
 	function toggleExpander(e) {
-			e.preventDefault();
+		e.preventDefault();
 		var contentElCls = e.currentTarget.nextElementSibling.classList;
 		var openedClassName = 'expander__item__content--open';
+		var titleOpenClass = 'expander__item__title--open';
 		var clickedArrowImg = e.currentTarget.querySelector('img.expander__item__title__arrow');
 		if (contentElCls.contains(openedClassName)) {
 			contentElCls.remove(openedClassName);
-			clickedArrowImg.src = '/images/expander/icon-expander-open.svg';
+			e.currentTarget.classList.remove(titleOpenClass);
 		} else {
 			contentElCls.add(openedClassName);
-			clickedArrowImg.src = '/images/expander/icon-expander-close.svg';
+			e.currentTarget.classList.add(titleOpenClass);
 		}
 
 	};
