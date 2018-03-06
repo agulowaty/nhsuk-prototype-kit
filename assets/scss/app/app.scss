@@ -5,6 +5,7 @@
 @import "important-card";
 @import "header";
 @import "footer";
+@import "external-links";
 
 #content {
 	background-color: $grey-4;
@@ -26,7 +27,6 @@ h1 {
 h2 {
 	font-weight: 300;
 }
-
 
 .section-header {
 	@include site-width-container;
