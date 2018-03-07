@@ -48,36 +48,7 @@
 
 <div>
 	<h2>Want to learn more?</h2>
-	{{> components/important-card }}
+	{{> components/important-card message='The following links will take you away from the NHS website'	}}
 </div>
-<div class="grid-row external-links">
-	<div class="column--one-half">
-		<h4>Type 1 diabetes</h4>
-		<ul>
-			<li><a class="external-links__link-arrow" href="#">What is type 1 diabetes</a>
-		</ul>
-		<h4>Managing Type 1 diabetes</h4>
-		<ul>
-			<li><a class="external-links__link-arrow" href="#">What to do when you're unwell</a>
-		</ul>
-		<h4>Lifestyle</h4>
-		<ul>
-			<li><a class="external-links__link-arrow" href="#">Travelling with type 1 diabetes</a>
-			<li><a class="external-links__link-arrow" href="#">Drinking alcohol</a>
-			<li><a class="external-links__link-arrow" href="#">Taking drugs</a>
-		</ul>
-	</div>
-	<div class="column--one-half">
-		<h4>Sport and exercise</h4>
-		<ul>
-			<li><a class="external-links__link-arrow" href="#">Exercise and nutrition</a>
-			<li><a class="external-links__link-arrow" href="#">Doing sport with type 1 diabetes</a>
-		</ul>
-		<h4>Work</h4>
-		<ul>
-			<li></li>
-			<li><a class="external-links__link-arrow" href="#">Your employment rights</a>
-			<li><a class="external-links__link-arrow" href="#">Night shifts and type 1 diabetes</a>
-		</ul>
-	</div>
-</div>
+
+{{> diabetes/external-links }}
