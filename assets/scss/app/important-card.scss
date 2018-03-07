@@ -1,7 +1,24 @@
 @import "../nhsuk/environment/settings/colours";
 
 .important-card {
+	position: relative;
 	background-color: $white;
 	border-top: 2px solid $dark-blue;
 	padding: 25px 14px 25px 14px;
+
+	.important-card__icon {
+		color: $white; 
+		background-color: $blue;
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 0px;
+		top: -16px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		&:after {
+			content: "!";
+		}
+	}
 }
