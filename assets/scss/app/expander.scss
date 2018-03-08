@@ -104,6 +104,26 @@ $text-margin-left: $arrow-width + (2 * $arrow-margin);
 	height: 353px;
 }
 
+.expander__item__content__video-container {
+	position: relative;
+}
+
+
+$video-overlay-height: 50px;
+
+.expander__item__content__video-overlay {
+	color: white;
+	position: absolute;
+	background: $blue;
+	opacity: 0.7;
+	height: $video-overlay-height;
+	line-height: $video-overlay-height;
+	padding-left: 12px;
+	margin: 0;
+	width: 100%;
+	bottom: 0;
+}
+
 .expander__item__button-wrapper {
 	margin-bottom: 32px;
 }
