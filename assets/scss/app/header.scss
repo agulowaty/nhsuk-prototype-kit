@@ -10,7 +10,7 @@ $header-height: 100px;
 }
 
 .global-header__inner {
-	border-bottom: 2px solid $dark-blue;
+	border-bottom: 4px solid $dark-blue;
 	display: block;
 	padding: 0;
 	height: $header-height;
@@ -48,12 +48,12 @@ $header-height: 100px;
 		list-style: none;
 		li {
 			display: inline;
-			font-size: 18px;
+			font-size: 16px;
 			line-height: $header-height;
 		}
 
 		li + li {
-			padding-left: 18px;
+			padding-left: 32px;
 		}
 
 	}
@@ -69,6 +69,7 @@ $height: 64px;
 	@include site-width-container;
 	line-height: $height;
 	color: $dark-blue;
+	font-size: 16px;
 
 	a {
 		color: $dark-blue;
