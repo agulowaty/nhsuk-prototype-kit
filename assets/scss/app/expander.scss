@@ -32,6 +32,7 @@ $border-width: 4px;
 	background-image: url('/images/expander/icon-expander-open.svg');
 	background-repeat: no-repeat;
 	background-position: 28px 22px;
+	padding-right: 8px;
 	&:link, &:visited, &:active {
 		color: $dark-blue;
 	}

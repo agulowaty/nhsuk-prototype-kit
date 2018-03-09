@@ -36,8 +36,28 @@ h2 {
 	max-width: 635px;
 }
 
+.page-section {
+	margin: 32px auto;
+	padding: 0 32px;
+}
+
 @media (min-width: 1024px) {
 	.section-header {
-		margin: 32px auto 32px auto;
+		margin: 32px auto;
+	}
+
+	.page-section {
+		padding: 0 16px;
+	}
+}
+
+@media (min-width: 925px) {
+	.section-header {
+		margin: 32px auto;
+	}
+
+	.page-section {
+		margin: 32px auto;
+		padding: 0;
 	}
 }
