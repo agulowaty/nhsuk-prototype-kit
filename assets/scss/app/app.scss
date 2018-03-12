@@ -44,6 +44,9 @@ h2 {
 	}
 
 	.page-section {
+		ul, ol {
+			margin-top: 0;
+		}
 		margin: 32px auto 0 32px;
 		padding: 0 16px;
 	}
@@ -55,6 +58,9 @@ h2 {
 	}
 
 	.page-section {
+		ul, ol {
+			margin-top: 0;
+		}
 		margin: 32px auto 0 auto;
 		padding: 0;
 	}
