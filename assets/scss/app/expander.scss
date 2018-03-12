@@ -10,7 +10,7 @@
 	li + li {
 		margin: 0;
 		border-top: 1.5px;
-	} 
+	}
 
 }
 
@@ -23,7 +23,7 @@ $border-width: 4px;
 	margin-bottom: 0;
 }
 
-$arrow-margin: 18px;	
+$arrow-margin: 18px;
 $arrow-width:  32px;
 $text-margin-left: $arrow-width + (2 * $arrow-margin);
 
@@ -32,7 +32,7 @@ $text-margin-left: $arrow-width + (2 * $arrow-margin);
 	font-size: 19px;
 	text-decoration: none;
 	display: inline-block;
-	width: 100%; 
+	width: 100%;
 	background-image: url('/images/expander/icon-expander-open.svg');
 	background-repeat: no-repeat;
 	background-position: $arrow-margin 22px;
@@ -70,7 +70,14 @@ $text-margin-left: $arrow-width + (2 * $arrow-margin);
 	line-height: 28px;
 
 	.expander__item__content__text {
-		margin: 32px $text-margin-left;
+		margin: 8px $text-margin-left;
+		ul {
+			margin-top: 0;
+		}
+		li {
+			list-style: disc;
+			padding: 8px 0;
+		}
 	}
 
 	li {
