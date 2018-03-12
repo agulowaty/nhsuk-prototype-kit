@@ -33,19 +33,13 @@ $border-width: 4px;
 	background-repeat: no-repeat;
 	background-position: 28px 22px;
 	padding-right: 8px;
+	padding-left: 88px;
 	&:link, &:visited, &:active {
 		color: $dark-blue;
 	}
 
 	&:focus {
 		outline-width: $border-width;
-	}
-
-	div {
-		display: inline-block;
-		vertical-align: middle;
-		padding-left: 88px;
-		line-height: 28px;
 	}
 }
 
