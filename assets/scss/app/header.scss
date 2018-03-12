@@ -34,6 +34,8 @@ $header-height: 100px;
 .global-header__navigation {
 	display: inline-block;
 	height: 100%;
+	text-align: right;
+	width: 80%;
 
 	a, a:link {
 		color: $white;
