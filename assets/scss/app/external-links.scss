@@ -1,8 +1,11 @@
 .external-links {
+	margin-top: 4px;
+	margin-bottom: 32px;
+	
 	a.external-links__link-arrow {
 		display: block;
 		background-image: url('/images/icon-link-arrow-right.svg');
-		background-position: 0 9px; 
+		background-position: 0 9px;
 		background-repeat: no-repeat;
 		padding-left: 32px;
 		font-size: 19px;

@@ -1,6 +1,9 @@
 @import "../nhsuk/environment/tools/mixins/layout";
 @import "../nhsuk/environment/settings/colours";
 
+footer {
+	background-color: $blue;
+}
 .global-footer {
 	background-color: $white;
 }
@@ -11,13 +14,15 @@
 }
 
 .global-footer__links {
-	background-color: $white;
 
 	ul {
 		list-style: none;
 		padding: 0;
 		color: blue;
 		font-size: 16px;
+		li a {
+			color: $white;
+		}
 	}
 }
 
