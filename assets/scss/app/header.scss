@@ -34,6 +34,7 @@ $header-height: 100px;
 .global-header__navigation {
 	display: inline-block;
 	height: 100%;
+	text-align: right;
 	width: 80%;
 
 	a, a:link {
@@ -70,7 +71,17 @@ $height: 64px;
 	@include site-width-container;
 	line-height: $height;
 	color: $dark-blue;
+	list-style: none;
+	padding: 28px 0;
+
+	ol {
+		padding-left: 0;
 	font-size: 16px;
+	}
+
+	li {
+		display: inline;
+	}
 
 	a {
 		color: $dark-blue;
