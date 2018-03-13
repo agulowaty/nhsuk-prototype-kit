@@ -76,7 +76,6 @@ h4 {
 .callout--info {
 	border-width: 0 0 0 8px;
 	border-color: #005eb8;
-}
 
 	p {
 		margin-bottom: 0;
@@ -120,13 +119,15 @@ h4 {
 		margin: 32px auto;
 		margin-bottom:0;
 		padding: 32px 0;
-}
+
 		ul, ol {
 			margin-top: 0;
 		}
+
 		li + li {
 			margin-top: 0;
 		}
+
 		margin: 32px auto 0 auto;
 		padding: 0;
 	}
