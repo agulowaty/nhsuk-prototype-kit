@@ -19,6 +19,33 @@
 .page-section * + * {
 	margin-top: 0;
 }
+.service-alert {
+  background-color: #fada88;
+  color: #00365d;
+  line-height: 16px;
+}
+.service-alert-inner {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.service-alert p {
+	margin-bottom:0;
+	font-size: 14px;
+}
+.service-status {
+	border: 2px solid #00365d;
+  display: inline-block;
+  background-color: #00365d;
+  color: #fada88;
+  padding: 0 10px;
+  margin: 5px 21px 5px 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
 .breadcrumb__navigation .right-arrow {
 	margin: 0 12px;
 }
