@@ -23,16 +23,20 @@
 		left: 0px;
 		top: -16px;
 		text-align: center;
-		font-size: 30px;
+		font-size: 28px;
 		font-weight: bold;
 		&:after {
 			content: "!";
+			line-height: 32px;
 		}
 	}
 }
 .important-card--yellow {
 	background-color: #FFF490;
 	border-top: 2px solid #000;
+	font-size: 19px;
+	line-height: 28px;
+	padding:24px;
 
 	.important-card__icon {
 		background-color: #000;

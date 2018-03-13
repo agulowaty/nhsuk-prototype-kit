@@ -70,9 +70,10 @@ $text-margin-left: $arrow-width + (2 * $arrow-margin);
 	line-height: 28px;
 
 	.expander__item__content__text {
-		margin: 8px $text-margin-left;
+		margin: 18px $text-margin-left;
 		ul {
 			margin-top: 0;
+			margin-bottom: 18px;
 		}
 		li {
 			list-style: disc;
@@ -85,11 +86,17 @@ $text-margin-left: $arrow-width + (2 * $arrow-margin);
 		line-height: 28px;
 	}
 }
-
+.expander__item__content__text .list--check li, .expander__item__content__text .list--cross li {
+	list-style: none;
+}
+.expander__item__content__text .panel {
+	margin-bottom: 32px;
+}
 @media (min-width: 925px) {
 	.expander__item__content__text p {
 		font-size: 19px;
 		line-height: 28px;
+		margin-bottom: 18px;
 	}
 
 	.expander__item__content__text *+* {
